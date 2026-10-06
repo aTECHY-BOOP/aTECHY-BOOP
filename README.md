@@ -32,15 +32,15 @@ I'm **Aryan Bhosale**, a **Computer Science Engineering student specializing in 
 
 I enjoy working at the intersection of **AI, software development, data, and creative product design**.
 
-Rather than only learning concepts, I try to turn them into something tangible — whether that's an ML experiment, an AI application, a React interface, a data-driven project, or an idea that solves a real-world problem.
+Rather than only learning concepts, I try to turn them into something tangible — whether that's an ML experiment, an AI application, a React interface, a simulation, or an idea that solves a real-world problem.
 
 ```text
 AI / ML
    │
    ├── Python
    ├── Machine Learning
-   ├── Data Science
    ├── Neural Networks
+   ├── Data Science
    └── Problem Solving
         │
         ▼
@@ -52,7 +52,7 @@ Software Development
    └── Interactive UI
         │
         ▼
-Real-World Projects
+Simulations & Real-World Projects
 ```
 
 ---
@@ -146,9 +146,9 @@ Strengthening my DSA fundamentals and learning how to approach technical problem
 
 ### Character-level neural language model built from scratch
 
-A browser-based experiment that demonstrates the fundamentals behind language models by building, training and generating text with a **character-level neural network**.
+A browser-based experiment demonstrating the fundamentals behind language models by building, training and generating text with a **character-level neural network**.
 
-The project implements an MLP architecture with one-hot inputs, a hidden layer, softmax output and the Adam optimizer — all running in JavaScript.
+The project implements an MLP architecture with one-hot inputs, a hidden layer, softmax output and the Adam optimizer, all running directly in JavaScript.
 
 **Features**
 
@@ -161,7 +161,7 @@ The project implements an MLP architecture with one-hot inputs, a hidden layer, 
 * Training loss visualization
 * Next-token probability visualization
 * Text generation
-* Multiple datasets including Shakespeare, DNA, JavaScript and Haiku
+* Multiple datasets
 
 `JavaScript` `Neural Networks` `MLP` `Adam` `NLP` `Machine Learning`
 
@@ -175,13 +175,49 @@ The project implements an MLP architecture with one-hot inputs, a hidden layer, 
 
 ---
 
+## 🏎️ Pit Lane
+
+### Cars that teach themselves to drive
+
+An evolutionary driving simulation where **40 cars start with randomly wired tiny brains** and progressively learn to navigate a race track through selection and mutation.
+
+The best-performing drivers of each generation reproduce, their neural networks are slightly mutated, and the population gradually evolves better driving behaviour.
+
+**Features**
+
+* 40 autonomous cars
+* Random neural-network initialization
+* Evolution through generations
+* Selection of high-performing drivers
+* Neural-network mutation
+* Multiple procedurally selected tracks
+* Adjustable mutation strength
+* Speed controls
+* Learning-curve visualization
+* Visualized leader neural network
+* Track transfer experiments
+
+The project demonstrates how **evolutionary algorithms and neural-network-like controllers** can produce emergent behaviour without manually teaching every car how to drive.
+
+`JavaScript` `Neural Networks` `Evolutionary Algorithms` `Simulation` `AI`
+
+<div align="center">
+
+<a href="https://pit-lane-cars-that-teach-themselves.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-PIT_LANE-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
 ## 🖐️ ASL Sign Language Translator
 
 ### Real-time American Sign Language recognition in the browser
 
 A browser-based accessibility project that uses **webcam hand tracking** to recognize ASL letters and convert them into text.
 
-The application supports an AI-assisted mode using Claude as well as a **geometric offline mode**, allowing recognition without API calls.
+The application combines AI-assisted recognition with an **offline geometric recognition mode**, making the project usable even without continuous API calls.
 
 **Features**
 
@@ -190,16 +226,52 @@ The application supports an AI-assisted mode using Claude as well as a **geometr
 * Hold-to-register interaction
 * Open palm → space
 * Delete / clear controls
-* Claude AI integration
+* AI-assisted recognition
 * Offline geometric recognition mode
 * Browser-based interaction
 
-`Computer Vision` `AI` `JavaScript` `Webcam` `Accessibility` `Claude AI`
+`Computer Vision` `AI` `JavaScript` `Webcam` `Accessibility`
 
 <div align="center">
 
 <a href="https://asl-sign-language-translator-ten.vercel.app/">
 <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-ASL_TRANSLATOR-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+## 🧬 Tidepool
+
+### A self-evolving digital ecosystem
+
+An artificial-life simulation where creatures **eat, reproduce, mutate and compete for survival** without a predefined script determining the outcome.
+
+Prey and predators interact with a growing food supply, while inherited traits gradually change the population over generations.
+
+**Features**
+
+* Autonomous prey and predators
+* Food-based survival
+* Reproduction
+* Genetic mutation
+* Evolving traits
+* Speed, sight and size attributes
+* Population dynamics
+* Boom-and-bust ecosystem behaviour
+* Interactive food placement
+* Adjustable mutation size
+* Live evolutionary statistics
+
+The project explores how **simple rules can produce complex emergent behaviour**.
+
+`JavaScript` `Artificial Life` `Evolution` `Simulation` `Genetic Algorithms`
+
+<div align="center">
+
+<a href="https://tidepool-a-self-evolving-ecosystem.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-TIDEPOOL-6C63FF?style=for-the-badge"/>
 </a>
 
 </div>
@@ -216,14 +288,14 @@ The centerpiece is the **ATHENA Sentinel Pendant**, designed around discreet, gr
 
 **Key concepts**
 
-* 🔴 **Multi-level SOS architecture** — Different emergency levels based on pendant interactions
-* 🧠 **AI distress detection** — Concept for identifying abnormal biometric and motion patterns
-* 👥 **Trusted Circle** — Connects users with trusted contacts during emergencies
-* 🛣️ **Journey Mode** — Safety monitoring during journeys and commutes
-* 📍 **Safety Heatmap** — Concept for identifying safer routes and areas
-* 🔐 **Evidence Vault** — Concept for securing emergency evidence and telemetry
-* ⚡ **Automatic escalation** — Designed for situations where manual interaction may not be possible
-* 📱 **Interactive safety dashboard** — High-fidelity interface demonstrating the complete ecosystem
+* 🔴 **Multi-level SOS architecture**
+* 🧠 **AI distress detection**
+* 👥 **Trusted Circle**
+* 🛣️ **Journey Mode**
+* 📍 **Safety Heatmap**
+* 🔐 **Evidence Vault**
+* ⚡ **Automatic escalation**
+* 📱 **Interactive safety dashboard**
 
 `React` `JavaScript` `Vite` `UI/UX` `Product Design` `Interactive Design`
 
@@ -253,6 +325,38 @@ A concept designed to help students and organizations identify skill gaps and cr
 * Data visualization dashboard
 
 `AI/ML` `Python` `Data Analytics` `Power BI`
+
+---
+
+## 🌌 Aether Isle
+
+### An immersive floating-world web experience
+
+A creative interactive website built around a fictional world suspended between **sky and stars**.
+
+The experience uses scrolling, exploration and visual storytelling to guide users through floating islands, crystal caves and an interactive lighthouse concept.
+
+**Features**
+
+* Immersive landing experience
+* Scroll-based exploration
+* Interactive island map
+* Crystal gallery
+* Atmospheric storytelling
+* Contact / signal interaction
+* Responsive visual design
+
+This project focuses on **creative frontend development, visual storytelling and immersive web experiences**.
+
+`React` `JavaScript` `CSS` `UI/UX` `Creative Development`
+
+<div align="center">
+
+<a href="https://floating-island-site-1.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-AETHER_ISLE-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
 
 ---
 
@@ -287,6 +391,8 @@ Areas I'm exploring:
 * Classification
 * Model evaluation
 * Neural networks
+* Computer vision
+* Evolutionary algorithms
 * Python-based ML workflows
 
 `Python` `NumPy` `pandas` `Machine Learning`
@@ -350,6 +456,7 @@ Areas I'm exploring:
 * Build stronger **Machine Learning fundamentals**
 * Understand **neural networks and AI systems**
 * Improve **DSA & problem-solving**
+* Explore **computer vision and intelligent systems**
 * Build production-quality **React applications**
 * Develop meaningful **AI/ML projects**
 * Contribute to **open-source**
@@ -410,12 +517,26 @@ I'm interested in collaborating on:
 <img src="https://img.shields.io/badge/🧠_EXPLORE-MINI_LLM-6C63FF?style=for-the-badge"/>
 </a>
 
+<a href="https://pit-lane-cars-that-teach-themselves.vercel.app/">
+<img src="https://img.shields.io/badge/🏎️_EXPLORE-PIT_LANE-6C63FF?style=for-the-badge"/>
+</a>
+
 <a href="https://asl-sign-language-translator-ten.vercel.app/">
 <img src="https://img.shields.io/badge/🖐️_EXPLORE-ASL_TRANSLATOR-6C63FF?style=for-the-badge"/>
 </a>
 
+<br><br>
+
+<a href="https://tidepool-a-self-evolving-ecosystem.vercel.app/">
+<img src="https://img.shields.io/badge/🧬_EXPLORE-TIDEPOOL-6C63FF?style=for-the-badge"/>
+</a>
+
 <a href="https://athena-safety-site.vercel.app/">
 <img src="https://img.shields.io/badge/🛡️_EXPLORE-ATHENA-6C63FF?style=for-the-badge"/>
+</a>
+
+<a href="https://floating-island-site-1.vercel.app/">
+<img src="https://img.shields.io/badge/🌌_EXPLORE-AETHER_ISLE-6C63FF?style=for-the-badge"/>
 </a>
 
 </div>
