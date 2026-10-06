@@ -13,9 +13,6 @@
 <a href="https://github.com/aTECHY-BOOP">
 <img src="https://img.shields.io/badge/GitHub-aTECHY--BOOP-181717?style=for-the-badge&logo=github"/>
 </a>
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
 
 <br><br>
 
@@ -35,14 +32,15 @@ I'm **Aryan Bhosale**, a **Computer Science Engineering student specializing in 
 
 I enjoy working at the intersection of **AI, software development, data, and creative product design**.
 
-Rather than only learning concepts, I try to turn them into something tangible — whether that's an ML experiment, a React interface, a data-driven project, or an idea that solves a real-world problem.
+Rather than only learning concepts, I try to turn them into something tangible — whether that's an ML experiment, an AI application, a React interface, a data-driven project, or an idea that solves a real-world problem.
 
 ```text
 AI / ML
    │
    ├── Python
-   ├── Data Science
    ├── Machine Learning
+   ├── Data Science
+   ├── Neural Networks
    └── Problem Solving
         │
         ▼
@@ -67,7 +65,7 @@ Real-World Projects
 
 ### 🤖 Artificial Intelligence
 
-Exploring machine learning concepts, data preprocessing, model building and practical AI applications.
+Exploring machine learning, neural networks, AI applications and practical ways to turn intelligent systems into useful products.
 
 </td>
 
@@ -93,7 +91,7 @@ Working with Python, NumPy, pandas and visualization to understand and work with
 
 ### 🧠 Problem Solving
 
-Strengthening my DSA fundamentals and learning how to approach problems systematically.
+Strengthening my DSA fundamentals and learning how to approach technical problems systematically.
 
 </td>
 </tr>
@@ -144,9 +142,104 @@ Strengthening my DSA fundamentals and learning how to approach problems systemat
 
 # 🧩 FEATURED PROJECTS
 
-### 🧭 AI Skill GPS
+## 🧠 Mini LLM from Scratch
 
-**AI-powered skill & career optimization platform**
+### Character-level neural language model built from scratch
+
+A browser-based experiment that demonstrates the fundamentals behind language models by building, training and generating text with a **character-level neural network**.
+
+The project implements an MLP architecture with one-hot inputs, a hidden layer, softmax output and the Adam optimizer — all running in JavaScript.
+
+**Features**
+
+* Character-level tokenization
+* One-hot encoded inputs
+* MLP neural network
+* `128` neuron tanh hidden layer
+* Softmax output layer
+* Adam optimization
+* Training loss visualization
+* Next-token probability visualization
+* Text generation
+* Multiple datasets including Shakespeare, DNA, JavaScript and Haiku
+
+`JavaScript` `Neural Networks` `MLP` `Adam` `NLP` `Machine Learning`
+
+<div align="center">
+
+<a href="https://mini-llm-from-scratch-neon.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-MINI_LLM-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+## 🖐️ ASL Sign Language Translator
+
+### Real-time American Sign Language recognition in the browser
+
+A browser-based accessibility project that uses **webcam hand tracking** to recognize ASL letters and convert them into text.
+
+The application supports an AI-assisted mode using Claude as well as a **geometric offline mode**, allowing recognition without API calls.
+
+**Features**
+
+* Real-time webcam hand tracking
+* ASL letter recognition
+* Hold-to-register interaction
+* Open palm → space
+* Delete / clear controls
+* Claude AI integration
+* Offline geometric recognition mode
+* Browser-based interaction
+
+`Computer Vision` `AI` `JavaScript` `Webcam` `Accessibility` `Claude AI`
+
+<div align="center">
+
+<a href="https://asl-sign-language-translator-ten.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-ASL_TRANSLATOR-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+## 🛡️ ATHENA
+
+### Quiet protection. Instant response.
+
+**ATHENA** is a women's safety ecosystem concept combining emergency technology, trusted contacts, journey monitoring and intelligent safety features into one connected experience.
+
+The centerpiece is the **ATHENA Sentinel Pendant**, designed around discreet, graded emergency interactions rather than a traditional one-button panic system.
+
+**Key concepts**
+
+* 🔴 **Multi-level SOS architecture** — Different emergency levels based on pendant interactions
+* 🧠 **AI distress detection** — Concept for identifying abnormal biometric and motion patterns
+* 👥 **Trusted Circle** — Connects users with trusted contacts during emergencies
+* 🛣️ **Journey Mode** — Safety monitoring during journeys and commutes
+* 📍 **Safety Heatmap** — Concept for identifying safer routes and areas
+* 🔐 **Evidence Vault** — Concept for securing emergency evidence and telemetry
+* ⚡ **Automatic escalation** — Designed for situations where manual interaction may not be possible
+* 📱 **Interactive safety dashboard** — High-fidelity interface demonstrating the complete ecosystem
+
+`React` `JavaScript` `Vite` `UI/UX` `Product Design` `Interactive Design`
+
+<div align="center">
+
+<a href="https://athena-safety-site.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-ATHENA-6C63FF?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+## 🧭 AI Skill GPS
+
+### AI-powered skill & career optimization platform
 
 A concept designed to help students and organizations identify skill gaps and create personalized learning paths.
 
@@ -163,26 +256,7 @@ A concept designed to help students and organizations identify skill gaps and cr
 
 ---
 
-### 🛡️ ATHENA
-
-**Quiet protection. Instant response.**
-
-A premium emergency-focused wearable and companion application concept designed around fast SOS interactions, trusted contacts and emergency awareness.
-
-**Focus**
-
-* SOS interactions
-* Trusted contact circles
-* Emergency states
-* Live safety information
-* Wearable interaction design
-* High-fidelity mobile UI
-
-`UI/UX` `Product Design` `Interactive Prototyping`
-
----
-
-### 🌐 Interactive React Experiences
+## 🌐 Interactive React Experiences
 
 Building experimental web experiences focused on modern UI, animation and interaction.
 
@@ -194,14 +268,15 @@ Current exploration includes:
 * Motion & animation
 * Glassmorphism
 * Interactive components
+* Responsive interfaces
 
 `React` `JavaScript` `Vite` `CSS`
 
 ---
 
-### 🤖 AI / ML Experiments
+## 🤖 AI / ML Experiments
 
-Learning machine learning by building small practical experiments instead of only following tutorials.
+Learning machine learning by building practical experiments instead of only following tutorials.
 
 Areas I'm exploring:
 
@@ -211,6 +286,7 @@ Areas I'm exploring:
 * Regression
 * Classification
 * Model evaluation
+* Neural networks
 * Python-based ML workflows
 
 `Python` `NumPy` `pandas` `Machine Learning`
@@ -243,16 +319,20 @@ Areas I'm exploring:
                              ▼
                   ┌─────────────────────┐
                   │    DATA SCIENCE     │
+                  │                     │
                   │ NumPy • pandas      │
                   │ Statistics          │
+                  │ Data Analysis       │
                   └──────────┬──────────┘
                              │
                              ▼
                   ┌─────────────────────┐
                   │   MACHINE LEARNING  │
+                  │                     │
                   │ Regression          │
                   │ Classification      │
                   │ Model Evaluation    │
+                  │ Neural Networks     │
                   └──────────┬──────────┘
                              │
                              ▼
@@ -268,6 +348,7 @@ Areas I'm exploring:
 # 🎯 CURRENT GOALS
 
 * Build stronger **Machine Learning fundamentals**
+* Understand **neural networks and AI systems**
 * Improve **DSA & problem-solving**
 * Build production-quality **React applications**
 * Develop meaningful **AI/ML projects**
@@ -293,9 +374,9 @@ My learning loop is simple:
           ↓
        DEBUG
           ↓
-        UNDERSTAND
+     UNDERSTAND
           ↓
-        IMPROVE
+       IMPROVE
           ↓
         REPEAT
 ```
@@ -321,6 +402,20 @@ I'm interested in collaborating on:
 
 <a href="https://github.com/aTECHY-BOOP">
 <img src="https://img.shields.io/badge/GitHub-aTECHY--BOOP-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<br><br>
+
+<a href="https://mini-llm-from-scratch-neon.vercel.app/">
+<img src="https://img.shields.io/badge/🧠_EXPLORE-MINI_LLM-6C63FF?style=for-the-badge"/>
+</a>
+
+<a href="https://asl-sign-language-translator-ten.vercel.app/">
+<img src="https://img.shields.io/badge/🖐️_EXPLORE-ASL_TRANSLATOR-6C63FF?style=for-the-badge"/>
+</a>
+
+<a href="https://athena-safety-site.vercel.app/">
+<img src="https://img.shields.io/badge/🛡️_EXPLORE-ATHENA-6C63FF?style=for-the-badge"/>
 </a>
 
 </div>
